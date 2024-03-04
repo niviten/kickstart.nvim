@@ -53,4 +53,7 @@ return {
 
   -- Autopairs
   'jiangmiao/auto-pairs',
+
+  -- Wakatime tracking
+  'wakatime/vim-wakatime',
 }
