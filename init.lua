@@ -101,6 +101,10 @@ vim.opt.number = true
 --  Experiment for yourself to see if you like it!
 vim.opt.relativenumber = true
 
+-- Set tabstop and shiftwidth
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
 
@@ -884,10 +888,6 @@ vim.cmd('let &colorcolumn="80," . join(range(120, 999), ",")')
 -- Splits in natural way
 vim.o.splitbelow = true
 vim.o.splitright = true
-
--- Setting tabstop and shiftwidth (default is 8)
-vim.o.tabstop=4
-vim.o.shiftwidth=4
 
 -- Question: do we really need this?
 -- Enable filetype plugins and indentations
